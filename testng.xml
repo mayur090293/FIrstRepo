@@ -3,9 +3,11 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
+      <!--  
       <class name="mvn_prac.AppiumTest"/>
       <class name="mvn_prac.APITest"/>
-      
+      -->
+      <class name="mvn_prac.Factorial">
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
