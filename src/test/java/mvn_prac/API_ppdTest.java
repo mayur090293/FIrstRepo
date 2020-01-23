@@ -10,7 +10,8 @@ import io.restassured.specification.RequestSpecification;
 
 public class API_ppdTest 
 {
-   @Test
+   @SuppressWarnings("unchecked")
+@Test
    public void postTest()
    {
 	   RequestSpecification req=RestAssured.given();
@@ -31,7 +32,8 @@ public class API_ppdTest
 	   
    }
    
-   @Test
+   @SuppressWarnings("unchecked")
+@Test
    public void putTest()
    {
 	   RequestSpecification reqs=RestAssured.given();
