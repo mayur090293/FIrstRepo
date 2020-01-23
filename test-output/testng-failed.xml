@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="mvn_prac.APITest">
+      <class name="mvn_prac.API_ppdTest">
         <methods>
-          <include name="apiStatusCheck"/>
+          <include name="postTest"/>
         </methods>
-      </class> <!-- mvn_prac.APITest -->
+      </class> <!-- mvn_prac.API_ppdTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
