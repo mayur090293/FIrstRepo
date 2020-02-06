@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="mvn_prac.API_ppdTest">
+      <class name="RestAssured.preemitiveAuth">
         <methods>
-          <include name="postTest"/>
+          <include name="testPreemitiveAuth"/>
         </methods>
-      </class> <!-- mvn_prac.API_ppdTest -->
+      </class> <!-- RestAssured.preemitiveAuth -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

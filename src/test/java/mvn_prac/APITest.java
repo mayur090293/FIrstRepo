@@ -23,6 +23,6 @@ public class APITest
 	{
 		Response resp = RestAssured.get("https://github.com/rest-assured/rest-assured/wiki/Usage_Legacy");
 		int statusc = resp.getStatusCode();
-		Assert.assertEquals(statusc, 400);
+		Assert.assertEquals(statusc, 200);
 	}
 }

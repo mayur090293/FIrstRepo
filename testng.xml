@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test name="Test">
-    <classes>
-      <!-- <class name="mvn_prac.AppiumTest"/>
-      <class name="mvn_prac.APITest"/>
-      <class name="mvn_prac.SeleniumTest"/>
-       -->
-      <class name="mvn_prac.API_ppdTest">
-      <methods>
-      <exclude name = "postTest"/>
-      <exclude name = "putTest"/>
-      
-      </methods>
-      </class>
-      
-    </classes>
-  </test> <!-- Test -->
+	<test name="Test">
+		<classes>
+			<!--  <class name="mvn_prac.AppiumTest" />
+			<class name="mvn_prac.SeleniumTest" />
+			-->
+			<class name="mvn_prac.API_ppdTest"/ >
+			<class name="mvn_prac.APITest" />
+			
+			
+				<!--  <methods>
+					<exclude name="postTest" />
+					<exclude name="putTest" /> 
+					</methods>
+				-->
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

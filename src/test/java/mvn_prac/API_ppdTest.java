@@ -10,7 +10,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class API_ppdTest 
 {
-   @SuppressWarnings("unchecked")
+@SuppressWarnings("unchecked")
 @Test
    public void postTest()
    {
@@ -19,10 +19,9 @@ public class API_ppdTest
 	   req.header("Content-Type","application/json");  
 	   
 	   JSONObject json = new JSONObject();
-	   
-	   json.put("id","4");
-	   json.put("title","This is my 4th post request");
-	   json.put("author","Mayur Mahagaonkar");
+	   json.put("id",3);
+	   json.put("title","This is my 2nd post request");
+	   json.put("author","Kalpesh Vijay Mahagaonkar");
 	   
 	   req.body(json.toJSONString());
 	   
@@ -31,7 +30,7 @@ public class API_ppdTest
 	   Assert.assertEquals(201, code);
 	   
    }
-   
+
    @SuppressWarnings("unchecked")
 @Test
    public void putTest()
@@ -55,7 +54,7 @@ public class API_ppdTest
    public void deleteTest()
    {
 	   RequestSpecification resps=RestAssured.given();
-	   Response rep = resps.delete("http://localhost:3000/posts/9");
+	   Response rep = resps.delete("http://localhost:3000/posts/jAnc7KW");
 	   int code = rep.getStatusCode();
 	   Assert.assertEquals(200, code);
 	   
