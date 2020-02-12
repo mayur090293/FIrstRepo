@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2919" started-at="2020-02-06T12:06:30Z" finished-at="2020-02-06T12:06:33Z">
+  <suite name="Default suite" duration-ms="3835" started-at="2020-02-12T11:46:04Z" finished-at="2020-02-12T11:46:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2919" started-at="2020-02-06T12:06:30Z" finished-at="2020-02-06T12:06:33Z">
-      <class name="RestAssured.preemitiveAuth">
-        <test-method status="PASS" signature="testPreemitiveAuth()[pri:0, instance:RestAssured.preemitiveAuth@28feb3fa]" name="testPreemitiveAuth" duration-ms="2888" started-at="2020-02-06T17:36:30Z" finished-at="2020-02-06T17:36:33Z">
+    <test name="Default test" duration-ms="3835" started-at="2020-02-12T11:46:04Z" finished-at="2020-02-12T11:46:08Z">
+      <class name="RestAssured.OAuth2">
+        <test-method status="PASS" signature="generatetokenforoauth2()[pri:0, instance:RestAssured.OAuth2@4678c730]" name="generatetokenforoauth2" is-config="true" duration-ms="3305" started-at="2020-02-12T17:16:04Z" finished-at="2020-02-12T17:16:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPreemitiveAuth -->
-      </class> <!-- RestAssured.preemitiveAuth -->
+        </test-method> <!-- generatetokenforoauth2 -->
+        <test-method status="PASS" signature="useoauth2()[pri:0, instance:RestAssured.OAuth2@4678c730]" name="useoauth2" duration-ms="504" started-at="2020-02-12T17:16:08Z" finished-at="2020-02-12T17:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useoauth2 -->
+      </class> <!-- RestAssured.OAuth2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
