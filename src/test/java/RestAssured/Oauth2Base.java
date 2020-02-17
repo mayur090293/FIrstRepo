@@ -1,15 +1,14 @@
 package RestAssured;
 
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
 public class Oauth2Base 
 {
-   public static String token;
-   @BeforeClass
+   static String token;
+   @BeforeTest
    public String generatetokenforoauth2()
    {
 	   Response resp = RestAssured.given()

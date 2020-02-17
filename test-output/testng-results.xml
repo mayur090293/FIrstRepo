@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3835" started-at="2020-02-12T11:46:04Z" finished-at="2020-02-12T11:46:08Z">
+  <suite name="Default suite" duration-ms="4064" started-at="2020-02-13T06:02:23Z" finished-at="2020-02-13T06:02:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3835" started-at="2020-02-12T11:46:04Z" finished-at="2020-02-12T11:46:08Z">
+    <test name="Default test" duration-ms="4064" started-at="2020-02-13T06:02:23Z" finished-at="2020-02-13T06:02:27Z">
       <class name="RestAssured.OAuth2">
-        <test-method status="PASS" signature="generatetokenforoauth2()[pri:0, instance:RestAssured.OAuth2@4678c730]" name="generatetokenforoauth2" is-config="true" duration-ms="3305" started-at="2020-02-12T17:16:04Z" finished-at="2020-02-12T17:16:08Z">
+        <test-method status="PASS" signature="generatetokenforoauth2()[pri:0, instance:RestAssured.OAuth2@4678c730]" name="generatetokenforoauth2" is-config="true" duration-ms="3445" started-at="2020-02-13T11:32:23Z" finished-at="2020-02-13T11:32:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generatetokenforoauth2 -->
-        <test-method status="PASS" signature="useoauth2()[pri:0, instance:RestAssured.OAuth2@4678c730]" name="useoauth2" duration-ms="504" started-at="2020-02-12T17:16:08Z" finished-at="2020-02-12T17:16:08Z">
+        <test-method status="PASS" signature="useoauth2()[pri:0, instance:RestAssured.OAuth2@4678c730]" name="useoauth2" duration-ms="595" started-at="2020-02-13T11:32:26Z" finished-at="2020-02-13T11:32:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- useoauth2 -->
